@@ -3,7 +3,9 @@ This repository contains code and data to replicate the experiments from the pap
 
 ## Repository structure
 Processed_Data/ – prepared tabular datasets for experiments with onion, lettuce, and carrot crop data. This folder contains a detailed description of the raw datasets as well.
+
 ML_Training/ – code for experiments with traditional machine learning models (Decision Tree, Random Forest, and k-NN).
+
 DL_Training/ –  code for experiments with deep learning models (MLP, RNN LSTM, and RNN GRU).
 
 
