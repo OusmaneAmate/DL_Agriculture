@@ -1,9 +1,10 @@
-## Dimensionality_Reduction_Agricultural_Plant_Health
-This repository contains code and data to replicate the experiments from the paper “Studying the impact of dimensionality reduction on machine learning and deep learning prediction of agricultural plant health.” It includes Deep Learning training pipelines, classic Machine Learning baselines, and processed data used for benchmarking.
+## Dimensionality reduction and Machine learning for agricultural plant health forecasting project 
+This repository contains code and data to replicate the experiments from the paper “Studying the impact of dimensionality reduction on machine learning and deep learning prediction of agricultural plant health.” It includes dimensionality reduction, traditional machine learning, and deep learning training pipelines, as well as processed data used for benchmarking.
 
-## Repo structure
-Processed_Data/ – prepared tabular datasets for experiments for onion, lettuce and carrot crops and related fungal diseases. Also contains a detailed description of the raw datasets.
+## Repository structure
+Processed_Data/ – prepared tabular datasets for experiments with onion, lettuce, and carrot crop data. This folder contains a detailed description of the raw datasets as well.
+ML_Training/ – code for experiments with traditional machine learning models (Decision Tree, Random Forest, and k-NN).
+DL_Training/ –  code for experiments with deep learning models (MLP, RNN LSTM, and RNN GRU).
 
-ML_Training/ – Code to generate baseline models using classical machine learning (Decision tree, Random forest and K-nn).
 
-DL_Training/ – Code to generate baseline models using  deep learning (lstm, mlp- and rnn_gru).
+
